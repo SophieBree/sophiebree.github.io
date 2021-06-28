@@ -1,6 +1,5 @@
 import "./App.css";
 import Intro from "./components/Intro/Intro.js";
-import About from "./components/About/About.js";
 
 function App() {
   return (
