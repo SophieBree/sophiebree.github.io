@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  margin-top: 5%;
+  width: 100%;
+}
+
+.down-arrow {
+  max-width: 20px;
+  max-height: 20px;
+  display: block;
+  position:fixed;
+    bottom:10px;
+    left:50%;
+    transform: translateX(-7px);
+}
