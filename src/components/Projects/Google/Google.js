@@ -6,7 +6,7 @@ export default function Google() {
     <div>
       <div className="project-container-single google">
         <h2 className="project-title">Google Homepage Replica</h2>
-        <a href="#">
+        <a href="https://lucid-rosalind-de5613.netlify.app/">
           <img className="project-image" src={google} alt="" />
         </a>
       </div>
