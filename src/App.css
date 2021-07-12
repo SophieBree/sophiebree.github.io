@@ -46,13 +46,10 @@
   padding-bottom: 150px;
 }
 
-
 li {
   width: 80%;
   margin: 16px auto;
 }
-
-
 
 .project-container-single {
   padding-top: 50px;
@@ -85,11 +82,17 @@ a {
   text-align: center;
 }
 
+.footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
 /* For mobile */
 
 @media (max-width: 768px) {
     .project-image {
-        height: 150px;
+        height: 100px;
+        width: 90%;
     }
 
     .skills-container {

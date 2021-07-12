@@ -6,7 +6,7 @@ export default function Bookshop() {
         <div>
             <div className="project-container-single bookshop">
             <h2 className="project-title">Local Bookshop Inventory</h2>
-            <a href="https://mysterious-plateau-96484.herokuapp.com/"><img className="bookshop-project-image" src={bookshop} alt="" /></a>
+            <a href="https://mysterious-plateau-96484.herokuapp.com/"><img className="bookshop-project-image project-image" src={bookshop} alt="" /></a>
             </div>
             <ul>
                 <li>Made using MongoDB, Express, and Node.js</li>
