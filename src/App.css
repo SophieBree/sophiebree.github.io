@@ -40,10 +40,10 @@
   display: flex;
   flex-direction: column;
   font-size: 60px;
-  height: 53vh;
+  height: 40vh;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 150px;
+  margin-bottom: 150px;
 }
 
 li {
