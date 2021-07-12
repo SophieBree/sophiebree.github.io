@@ -1,11 +1,10 @@
 import React from "react";
-import downarrow from "./down-arrow.png";
-import "./Header.css";
+import placeholder from "./placeholder.png";
 
 export default function Header() {
   return (
     <div className="header">
-      <img className="logo" src={downarrow} alt="" />
+      <img className="logo" src={placeholder} alt="" />
     </div>
   );
 }

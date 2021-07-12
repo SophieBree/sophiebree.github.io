@@ -1,9 +1,8 @@
 import React from 'react'
-import './Skills.css';
 
 export default function Skills() {
     return (
-        <div>
+        <div className="skills-container">
             <i className="devicon-mongodb-plain-wordmark"></i>
             <i className="devicon-express-original colored"></i>
             <i className="devicon-react-original"></i>
