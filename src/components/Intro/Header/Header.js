@@ -1,10 +1,10 @@
 import React from "react";
-import placeholder from "./placeholder.png";
+import logo from "./logo.png";
 
 export default function Header() {
   return (
     <div className="header">
-      <img className="logo" src={placeholder} alt="" />
+      <img className="logo" src={logo} alt="" />
     </div>
   );
 }
