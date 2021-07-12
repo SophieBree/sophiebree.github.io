@@ -7,7 +7,7 @@ export default function Weather() {
       <div className="project-container-single weather">
         <h2 className="project-title">Weather App</h2>
         <a href="https://reverent-lamarr-7cbc8c.netlify.app/">
-          <img className="project-image" src={weather} alt="" />
+          <img className="weather-project-image" src={weather} alt="" />
         </a>
       </div>
       <ul>
