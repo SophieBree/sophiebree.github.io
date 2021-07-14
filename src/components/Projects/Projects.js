@@ -6,7 +6,7 @@ import Weather from './Weather/Weather.js';
 
 export default function Projects() {
     return (
-        <div className="projects-container">
+        <div id="projects-container">
             <h1 className="projects-container-title">Projects</h1>
             <Bookshop />
             <Weather />

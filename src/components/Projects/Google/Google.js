@@ -3,18 +3,30 @@ import google from "./google.png";
 
 export default function Google() {
   return (
-    <div>
-      <div className="project-container-single google">
-        <h2 className="project-title">Google Homepage Replica</h2>
+    <div className="project-container-single">
+      <div className="google">
+        <div className="project-title-container">
+          <h2 className="project-title">Google Homepage Replica</h2>
+          <a href="https://github.com/SophieBree/google-homepage">
+            <i className="devicon-github-original"></i>
+          </a>
+          <a href="https://lucid-rosalind-de5613.netlify.app/">
+            <i className="devicon-firefox-plain"></i>
+          </a>
+        </div>
         <a href="https://lucid-rosalind-de5613.netlify.app/">
-          <img className="project-image" src={google} alt="" />
+          <img className="project-image" src={google} alt="Homepage of my Google homepage replica." />
         </a>
       </div>
-      <ul>
-        <li>Made using HTML and CSS</li>
+      <ul className="project-description">
         <li>
-          It is a replica of the Google homepage, demonstrating ability to pull
-          a design from a template and implement it myself.
+          I made this as part of the Odin Project to learn more about{" "}
+          <strong>HTML</strong> and
+          <strong> CSS.</strong>
+        </li>
+        <li>
+          This was a fun project which also demonstrates my ability to pull a
+          design from a template and implement it myself.
         </li>
       </ul>
     </div>
