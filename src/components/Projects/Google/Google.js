@@ -4,20 +4,24 @@ import google from "./google.png";
 export default function Google() {
   return (
     <div className="project-container-single">
-      <div className="google">
         <div className="project-title-container">
           <h2 className="project-title">Google Homepage Replica</h2>
-          <a href="https://github.com/SophieBree/google-homepage">
-            <i className="devicon-github-original"></i>
-          </a>
-          <a href="https://lucid-rosalind-de5613.netlify.app/">
-            <i className="devicon-firefox-plain"></i>
-          </a>
+          <div className="project-links">
+            <a href="https://github.com/SophieBree/google-homepage">
+              <i className="devicon-github-original"></i>
+            </a>
+            <a href="https://lucid-rosalind-de5613.netlify.app/">
+              <i className="devicon-firefox-plain"></i>
+            </a>
+          </div>
         </div>
         <a href="https://lucid-rosalind-de5613.netlify.app/">
-          <img className="project-image" src={google} alt="Homepage of my Google homepage replica." />
+          <img
+            className="project-image"
+            src={google}
+            alt="Homepage of my Google homepage replica."
+          />
         </a>
-      </div>
       <ul className="project-description">
         <li>
           I made this as part of the Odin Project to learn more about{" "}

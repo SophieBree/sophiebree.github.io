@@ -4,20 +4,26 @@ import oldlibrary from "./oldlibrary.png";
 export default function OldLibrary() {
   return (
     <div className="project-container-single">
-      <div className="old-library">
+
         <div className="project-title-container">
           <h2 className="project-title">Front-end Library App</h2>
-          <a href="https://github.com/SophieBree/library">
-            <i className="devicon-github-original"></i>
-          </a>
-          <a href="https://compassionate-swirles-1c0039.netlify.app/">
-            <i className="devicon-firefox-plain"></i>
-          </a>
+          <div className="project-links">
+            <a href="https://github.com/SophieBree/library">
+              <i className="devicon-github-original"></i>
+            </a>
+            <a href="https://compassionate-swirles-1c0039.netlify.app/">
+              <i className="devicon-firefox-plain"></i>
+            </a>
+          </div>
         </div>
         <a href="https://compassionate-swirles-1c0039.netlify.app/">
-          <img className="project-image" src={oldlibrary} alt="Homepage of my front-end library app." />
+          <img
+            className="project-image"
+            src={oldlibrary}
+            alt="Homepage of my front-end library app."
+          />
         </a>
-      </div>
+
       <ul className="project-description">
         <li>
           This was an independent project to test my skills in{" "}
