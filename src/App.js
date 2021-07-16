@@ -9,7 +9,6 @@ function App() {
     <div className="App">
       <ul className="navigation-menu">
         <li><a href="#root">Home</a></li>
-        <li><a href="#about-me">About Me</a></li>
         <li><a href="#projects-container">Projects</a></li>
       </ul>
       <Intro />
