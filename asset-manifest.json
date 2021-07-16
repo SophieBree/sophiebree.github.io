@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.23ebd26e.chunk.css",
+    "main.css": "/static/css/main.3157f3d0.chunk.css",
     "main.js": "/static/js/main.9198b2da.chunk.js",
     "main.js.map": "/static/js/main.9198b2da.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d2be6e1a.js",
@@ -10,7 +10,7 @@
     "static/js/3.b83b0c2b.chunk.js": "/static/js/3.b83b0c2b.chunk.js",
     "static/js/3.b83b0c2b.chunk.js.map": "/static/js/3.b83b0c2b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.23ebd26e.chunk.css.map": "/static/css/main.23ebd26e.chunk.css.map",
+    "static/css/main.3157f3d0.chunk.css.map": "/static/css/main.3157f3d0.chunk.css.map",
     "static/js/2.38c03b1b.chunk.js.LICENSE.txt": "/static/js/2.38c03b1b.chunk.js.LICENSE.txt",
     "static/media/bookshop.43c26182.png": "/static/media/bookshop.43c26182.png",
     "static/media/google.e931cd0e.png": "/static/media/google.e931cd0e.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.d2be6e1a.js",
     "static/js/2.38c03b1b.chunk.js",
-    "static/css/main.23ebd26e.chunk.css",
+    "static/css/main.3157f3d0.chunk.css",
     "static/js/main.9198b2da.chunk.js"
   ]
 }
