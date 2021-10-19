@@ -8,15 +8,15 @@ export default function Weather() {
         <div className="project-title-container">
           <h2 className="project-title">Weather App</h2>
           <div className="project-links">
-            <a href="https://github.com/SophieBree/weather-app">
+            <a href="https://next-weather-app-seven.vercel.app/">
               <i className="devicon-github-original"></i>
             </a>
-            <a href="https://reverent-lamarr-7cbc8c.netlify.app/">
+            <a href="https://next-weather-app-seven.vercel.app/">
               <i className="devicon-firefox-plain"></i>
             </a>
           </div>
         </div>
-        <a href="https://reverent-lamarr-7cbc8c.netlify.app/">
+        <a href="https://next-weather-app-seven.vercel.app/">
           <img
             className="weather-project-image project-image"
             src={weather}
@@ -31,8 +31,8 @@ export default function Weather() {
         </li>
         <li>
           It was also a good opportunity to test my knowledge of{" "}
-          <strong>React</strong>, and how to store API keys securely using{" "}
-          <strong>Netlify functions.</strong>
+          React and Next.js, and how to store API keys securely using{" "}
+          <strong>Next.js</strong> features.
         </li>
         <li>
           The project features detailed weather reports about the current and
